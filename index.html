@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Bootstrap Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- CSS Stylesheet Link -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="stylesheet" type="text/css" href="website_style.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+        function scrollto(div) {
+            $('html,body').animate(
+                {
+                    scrollTop: $("#" + div).offset().top
+                }, 'slow');
+        }
+
+        function showyear4results() {
+            $('#results_table_body').html('<tr><td>Enterprise Applications Development</td> <td>Ongoing</td></tr>');
+            $('#results_table_body').append('<tr><td>Interactive Media Design</td> <td>Ongoing</td></tr>');
+            $('#results_table_body').append('<tr><td>Enterprise Application Architecture</td> <td>Ongoing</td></tr>');
+            $('#results_table_body').append('<tr><td>Project</td> <td>Ongoing</td></tr>');
+            $('#results_table_body').append('<tr><td>Development Operations CI/CD</td> <td>Ongoing</td></tr>');
+            $('#results_table_body').append('<tr><td>Information Management	</td> <td>Ongoing</td></tr>');
+
+        }
+
+        function showyear3results() {
+            $('#results_table_body').html('<tr><td>Server Side Web Development</td> <td>C</td></tr>');
+            $('#results_table_body').append('<tr><td>Operating Systems</td> <td>B</td></tr>');
+            $('#results_table_body').append('<tr><td>Cloud Service & Distributed Computing</td> <td>B-</td></tr>');
+            $('#results_table_body').append('<tr><td>Big Data Technologies</td> <td>B</td></tr>');
+            $('#results_table_body').append('<tr><td>Data Structures & Algorithms</td> <td>B+</td></tr>');
+            $('#results_table_body').append('<tr><td>Innovation & Entrepreneurship</td> <td>C</td></tr>');
+
+        }
+
+        function showyear2results() {
+            $('#results_table_body').html('<tr><td>Software Development 4</td> <td>B</td></tr>');
+            $('#results_table_body').append('<tr><td>Software Development 3</td> <td>B</td></tr>');
+            $('#results_table_body').append('<tr><td>Project</td> <td>A</td></tr>');
+            $('#results_table_body').append('<tr><td>Routing & Switching Essentials</td> <td>A</td></tr>');
+            $('#results_table_body').append('<tr><td>Management Science</td> <td>B</td></tr>');
+            $('#results_table_body').append('<tr><td>Database Admin & Analysis</td> <td>B</td></tr>');
+            $('#results_table_body').append('<tr><td>Information Security</td> <td>B</td></tr>');
+            $('#results_table_body').append('<tr><td>Software Quality Assurance & Testing</td> <td>B+</td></tr>');
+            $('#results_table_body').append('<tr><td>Network Fundamentals</td> <td>B+</td></tr>');
+            $('#results_table_body').append('<tr><td>Discrete Mathematics 2</td> <td>A</td></tr>');
+            $('#results_table_body').append('<tr><td>Client Side Web Development</td> <td>B+</td></tr>');
+            $('#results_table_body').append('<tr><td>Advanced Database Technologies</td> <td>B-</td></tr>');
+        }
+
+        function showyear1results() {
+            $('#results_table_body').html('<tr><td>Software Development 2</td> <td>A</td></tr>');
+            $('#results_table_body').append('<tr><td>Software Development 1</td> <td>A</td></tr>');
+            $('#results_table_body').append('<tr><td>Critical Skills Development</td> <td>B</td></tr>');
+            $('#results_table_body').append('<tr><td>Business & Information Systems</td> <td>B+</td></tr>');
+            $('#results_table_body').append('<tr><td>Database Fundamentals</td> <td>A</td></tr>');
+            $('#results_table_body').append('<tr><td>Computer Architecture</td> <td>A</td></tr>');
+            $('#results_table_body').append('<tr><td>Visual Design & User Experience</td> <td>B</td></tr>');
+            $('#results_table_body').append('<tr><td>Operating Systems Fundamentals</td> <td>A</td></tr>');
+            $('#results_table_body').append('<tr><td>Statistics</td> <td>B+</td></tr>');
+            $('#results_table_body').append('<tr><td>Discrete Mathematics 1</td> <td>B-</td></tr>');
+            $('#results_table_body').append('<tr><td>Systems Analysis</td> <td>B+</td></tr>');
+            $('#results_table_body').append('<tr><td>Social Media Communications</td> <td>B-</td></tr>');
+        }
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Mahon</title>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <div class="container" id="overall_container">
+        <div id="nav_bar" class="row">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" onclick="scrollto('about_me');" href="#">David Mahon</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li onclick="scrollto('education_part');"><a href="#">Education</a></li>
+                        <li onclick="scrollto('work_experience_part');"><a href="#">Previoius Work & Experience</a></li>
+                        <li onclick="scrollto('hobbies_interests_part');"><a href="#">Hobbies & Interests</a></li>
+                        <li onclick="scrollto('projects_part');"><a href="#">Projects</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row" id="about_part">
+            <div class="col-sm-5">
+                <img id="my_image" src="assets/ImageOfMe.jpg" class="img-circle" alt="Cinque Terre">
+            </div>
+            <div class="col-sm-7">
+                <h1 class="">David Mahon</h1>
+                <h3>Software Developer</h3>
+                <h4>4th Year Computing Student in Technological University Dublin</h4>
+
+                <br>
+                <br>
+                <h4>Contact Info:</h4>
+                <h4>Email: <a href="https://outlook.com">davidmahon2000@hotmail.com</a></h4>
+                <h4>Mobile: 0851614430</h4>
+                <h1><a href="https://www.linkedin.com/in/david-mahon-b49437180">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a></h1>
+
+            </div>
+        </div>
+
+        <div class="row" id="education_part">
+            <div class="col-sm-2" id="results_buttons">
+                <button class="btn btn-primary mx-1 active" id="year4btn" type="button" onclick="showyear4results()">
+                    4th Year
+                </button>
+
+                <button class="btn btn-primary mx-1" id="year3btn" type="button" onclick="showyear3results()">
+                    3rd Year
+                </button>
+
+                <button class="btn btn-primary mx-1" id="year2btn" type="button" onclick="showyear2results()">
+                    2nd Year
+                </button>
+
+                <button class="btn btn-primary mx-1" id="year1btn" type="button" onclick="showyear1results()">
+                    1st Year
+                </button>
+            </div>
+            <div class="col-sm-10">
+                <h1 id="education_title">Education</h1>
+                <h3>2012-2017 - Greenhills College</h3>
+                <h4>(Leaving Cert)</h4>
+                <h3>2017-2018 - Greenhills College Of Further Education</h3>
+                <h4>(QQI Level 5 Distinction in Software Development with Games Design)</h4>
+                <h3>2018-2022 - Technological University Dublin</h3>
+                <h4>(B.Sc (Hons) Computing with Software Development)</h4>
+
+                <h1>Module Grades</h1>
+
+                <div id="table_carousel" class="carousel carousel-dark slide mt-2" data-bs-ride="carousel"
+                    data-bs-interval="false">
+                    <div class="container col-sm-7">
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active">
+                                <table class="table table-bordered" id="resultsTable">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Module</th>
+                                            <th scope="col">Grade</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="results_table_body">
+                                        <tr>
+                                            <td>Enterprise Applications Development</td>
+                                            <td>Ongoing</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Interactive Media Design</td>
+                                            <td>Ongoing</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Enterprise Application Architecture</td>
+                                            <td>Ongoing</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Project</td>
+                                            <td>Ongoing</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Development Operations CI/CD</td>
+                                            <td>Ongoing</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Information Management </td>
+                                            <td>Ongoing</td>
+                                        </tr>
+
+
+                                    </tbody>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="work_experience_part">
+            <div class="col-sm-5">
+                <a href="https://www.hillbillys.ie/"><img id="hillbillys_image" src="assets/hillbillys.png"
+                        class="img-circle" alt="Cinque Terre"></a>
+                <a href="https://enterprise-solutions.ie/"><img id="es_image" src="assets/enterprise solutions.png"></a>
+            </div>
+            <div class="col-sm-7">
+                <h1 class="">Work Experience</h1>
+                <br>
+                <h3>Hillbilly's Family Restaurants</h3>
+                <h4><strong>Role</strong> - Kitchen Staff</h4>
+                <h4>(September 2017 - February 2021), (August 2021 - Present)</h4>
+
+                <br>
+                <br>
+                <h3>Enterprise Solutions</h3>
+                <h4><strong>Role</strong> - Junior Technical Engineer </h4>
+                <h4>(February 2021 - July 2021)</h4>
+
+            </div>
+        </div>
+
+        <div class="row" id="hobbies_interests_part">
+            <h1 class="text-center">Hobbies & Interests</h1>
+            <br>
+            <br>
+            <div id="carousel" class="col-sm-8">
+                <div id="my_carousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div id="carousel_inner" class="carousel-inner">
+                        <div id="music" class="item active">
+                            <div class="col-sm-5">
+                                <a href=""><img id="carousel_img" src="assets/music.jpg" class="img-circle"
+                                        alt="Cinque Terre"></a>
+                            </div>
+                            <div id="carousel_info" class="col-sm-7">
+                                <h3>Music Production</h3>
+                                <h4>Love making and listening to music.</h4>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-sm-5">
+                                <a href=""><img id="carousel_img" src="assets/football.jpg" class="img-circle"
+                                        alt="Cinque Terre"></a>
+                            </div>
+                            <div id="carousel_info" class="col-sm-7">
+                                <h3>Football</h3>
+                                <h4>I play football for a local amateur team.</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#my_carousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#my_carousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="projects_part">
+            <h1 class="text-center">Projects</h1>
+            <br>
+            <br>
+            <div id="carousel" class="col-sm-8">
+                <div id="projectsCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#projectsCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#projectsCarousel" data-slide-to="1"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div id="carousel_inner" class="carousel-inner">
+                        <div id="music" class="item active">
+                            <div class="col-sm-5">
+                                <a href=""><img id="carousel_img" src="assets/cinema.jpg" class="img-circle"
+                                        alt="Cinque Terre"></a>
+                            </div>
+                            <div id="carousel_info_proj" class="col-sm-7">
+                                <h2>Cinema Website</h2>
+                                <h3>2nd Year Project</h3>
+                                <h4>Website was made using python and django.</h4>
+                                <h5>Users were able to book and pay for tickets for a certain movie.</h5>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-sm-5">
+                                <a href=""><img id="carousel_img" src="assets/app.jpg" class="img-circle"
+                                        alt="Cinque Terre"></a>
+                            </div>
+                            <div id="carousel_info_proj" class="col-sm-7">
+                                <h2>Handymen App</h2>
+                                <h3>4th Year Project - Underway</h3>
+                                <h4>App was made using Flutter and Firebase.</h4>
+                                <h5>Users were able to find and contact tradesmen.</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#projectsCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#projectsCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Needed to use the Ionic FrameWork -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

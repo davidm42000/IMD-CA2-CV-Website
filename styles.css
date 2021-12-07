@@ -1,0 +1,140 @@
+body{
+    background-color: Gainsboro;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+#overall_container{
+
+}
+
+#about_part {
+    margin-top: 5em;
+    margin-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border: 0.5em;
+    border-color: black;
+    border-style:double;
+    background-color: white;
+}
+
+#education_part {
+    margin-top: 5em;
+    margin-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 14em;
+    border: 0.5em;
+    border-color: black;
+    border-style:double;
+    background-color: white;    
+}
+
+#work_experience_part {
+    margin-top: 5em;
+    margin-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border: 0.5em;
+    border-color: black;
+    border-style:double;
+    background-color: white;
+}
+
+#hobbies_interests_part {
+    margin-top: 5em;
+    margin-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border: 0.5em;
+    border-color: black;
+    border-style:double;
+    background-color: white;
+}
+
+#projects_part {
+    margin-top: 5em;
+    margin-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border: 0.5em;
+    border-color: black;
+    border-style:double;
+    background-color: white;
+}
+
+#carousel {
+    margin-left: 14em;
+}
+
+#carousel_inner {
+    padding: 5em;
+}
+
+#education_title {
+    margin-left: 3em;
+}
+
+#my_image {
+    height: 30em;
+    width: 30em;
+}
+
+#hillbillys_image {
+    height: 10em;
+    width: 10em;
+    margin-top: 5em;
+    margin-left: 10em;
+}
+
+#es_image {
+    height: 10em;
+    width: 30em;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+#carousel_img {
+    height: 16em;
+    width: 16em;
+}
+
+#carousel_info {
+    margin-top: 4em;
+}
+
+#carousel_info_proj {
+    margin-top: 1em;
+}
+
+#results_buttons {
+    margin-top: 22em;
+}
+
+#year4btn {
+    margin-top: 3em;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+#year3btn {
+    margin-top: 3em;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+#year2btn {
+    margin-top: 3em;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+#year1btn {
+    margin-top: 3em;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
